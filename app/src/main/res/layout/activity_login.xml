@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin_screen"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="290dp"
+        app:boxStrokeColor="@color/yellow"
+        app:hintTextColor="@color/yellow"
+        app:startIconDrawable="@drawable/baseline_person_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/greybackground"
+            android:hint="Enter Unique Id"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <!--  Sign In Section  End here-->
+
+    <!--    &lt;!&ndash;  Password Section  start here&ndash;&gt;-->
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_marginHorizontal="30dp"-->
+    <!--        android:layout_marginVertical="12dp"-->
+    <!--        app:boxStrokeColor="@color/yellow"-->
+    <!--        app:endIconMode="password_toggle"-->
+    <!--        app:endIconTint="@color/yellow"-->
+    <!--        app:hintTextColor="@color/black"-->
+    <!--        app:startIconDrawable="@drawable/password">-->
+
+    <!--        <com.google.android.material.textfield.TextInputEditText-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:background="@drawable/greybackground"-->
+    <!--            android:hint="Password"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textColorHint="@color/black" />-->
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+    <!--  Password Section  End here-->
+
+    <!--  Sign In Button Section  start here-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="12dp"
+        app:boxStrokeColor="@color/yellow"
+        app:hintTextColor="@color/yellow"
+
+        >
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:text="SIGN IN"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--  Sign In Button  Section  End here-->
+
+
+    <!--  Go back to sign up Section  start here-->
+
+    <TextView
+        android:id="@+id/ToSignUpPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:text="Go Back to Sign Up" />
+    <!--  Go back to sign up Section  End here-->
+</LinearLayout>

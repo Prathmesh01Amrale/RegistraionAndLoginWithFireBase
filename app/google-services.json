@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "592804654429",
+    "project_id": "registration-with-fireba-40061",
+    "storage_bucket": "registration-with-fireba-40061.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592804654429:android:d38628d961467feebeccb4",
+        "android_client_info": {
+          "package_name": "com.example.registrationwithfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwXHfrjDc0bG9V2LIx-aHhUD4Z5weG52M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
